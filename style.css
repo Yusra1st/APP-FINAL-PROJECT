@@ -1,0 +1,254 @@
+#img {background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20230425/pngtree-carnation-bouquet-book-pink-background-image_2493712.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+.studying p, h1{ 
+    color:rgb(10, 0, 0);
+    text-shadow: 0 0 30px #6b0404;
+}
+.navigation{
+    background-color: #f4f4f9;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black ;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    align-items: center;
+    margin-top: 0;
+height: 60px;
+width: 100%;
+justify-content: center;
+gap: 20px;
+}
+.navigation a{
+    text-decoration:solid;
+    color: rgb(245, 87, 113);
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+gap: 20px;
+font-family: sans-serif;
+padding: 10px;
+width: 100px;
+}
+.navigation a:hover{
+   border-left: 10px solid pink;
+    color: lightpink;
+    transition: 0.5s;
+    text-align: center;
+}
+body{
+background-color: #f8ad9d; 
+font-family: "Playwrite GB S", cursive;
+
+}
+.g-title{
+    text-align: center;
+    color: rgb(84, 5, 18);
+    border-left: 4px double rgb(79, 3, 16);
+    border-right: 4px double rgb(82, 4, 17);
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery-content{
+    margin-top: 50px;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    background-color: #f8ad9d;
+}
+.studying{font-size: xx-large;
+font-style: italic;
+padding-left: 50px;
+padding-right: 50px;
+
+margin-top: 50px;
+}
+*{
+box-sizing: border-box;
+}
+.books{
+width: 250px;
+height: 380px;
+background-color: white;
+border: 2px solid rgb(239, 135, 135);
+border-radius: 10px;
+padding: 20px;
+
+}
+.gallery{
+display: flex;
+gap: 30px;
+justify-content: space-around;
+margin-bottom: 100px;
+margin-top: 40px;
+}
+.books:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.books img{
+width: 100%;
+height: 250px;
+object-fit: fill;
+}
+.book-name {
+width: 100%;
+font-family: sans-serif;
+text-align: center;
+color: rgb(59, 57, 58);
+font-weight: bold;
+}
+.book-name button{
+    width: 100px;
+    outline: none;
+    padding: 10px;
+    color: rgb(10, 0, 0);
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 7px;
+    border: 2px solid grey;
+    }
+    button:hover{
+    background: rgb(105, 103, 103);
+    color: white;
+    transition: 1s;
+    }
+.row{
+display: flex;
+
+}
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+footer{
+background-color: white;
+
+}
+.footerContainer{
+width: 100%;
+padding-top: 0;
+
+
+}
+.socialIcons{
+display: flex;
+justify-content: center;
+
+}
+.socialIcons a{
+list-style: none;
+padding: 10px;
+background-color: pink;
+margin: 10px;
+border-radius: 50px;
+}
+.socialIcons a {
+color: white;
+opacity: 0.9;
+
+}
+.socialIcons a:hover{
+background-color: black;
+transition: 0.5s;
+}
+.socialIcons:hover i{
+color: white;
+transition: 0.5s;
+}
+.footerNav ul{
+list-style: none;
+display: flex;
+justify-content: center;
+margin-top: 10px;
+margin-bottom: 50px;
+}
+.footerNav ul li a{
+    text-decoration:solid;
+    color: rgb(245, 87, 113);
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+gap: 20px;
+font-family: sans-serif;
+padding: 10px;
+width: 100px;
+}
+
+.footerNav ul li a:hover{
+color: black;
+transition: 1s;
+}
+.footer-Bottom{
+background-color: black;
+padding: 20px;
+text-align: center;
+width: 100%;
+color: rgb(237, 233, 233);
+}
+.designer{
+text-transform: uppercase;
+font-weight: bold;
+color: #f77f00;
+margin: 0px 5px;
+}
+.container{
+width: 350px;
+height: 550px;
+background: white;
+padding: 10px;
+margin: 100px auto;
+box-shadow: 0px 10px 5px black ;
+border-bottom-right-radius:80px ;
+border-top-left-radius: 80px;
+border: 1px solid white;
+color: pink;
+font-style: italic;
+padding-top: 10px;
+padding-bottom: 40px;
+
+
+}
+form{
+width: 260px;
+margin: 20px 37px;
+text-align: center;
+}
+input, text{
+width: 100px;
+padding: 7px;
+border: none;
+outline: none;
+display: block;
+border-radius: 4px;
+margin-bottom: 10px;
+border:1px solid pink;
+
+}
+#description{
+font-size: larger;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-right: 50px;
+}
+#box{
+background-color: pink;
+background-size: cover;
+box-sizing: border-box;
+}
+#title{
+text-align: center;
+}
