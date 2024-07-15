@@ -6,7 +6,7 @@
         <meta name="viewport" content="width-device-width,initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
-        <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+        <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" >
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet"> 
@@ -22,7 +22,6 @@
             </div>
         </header>
         <div class="container">
-            <form action="confirmation.html" method="get">
             <h1 id="title">Contact us!</h1>
             <form id="contact-form" action="confirmation.html" method="get">
             <div>
@@ -35,7 +34,7 @@
             </div>
             <div>
                 <label for="number"> Age: </label>
-                <input type="text" id="number" name="your age" required placeholder="age" min="15" max="80">
+                <input type="number" id="number" name="your age" required placeholder="age" min="15" max="80">
 
             </div>
             <div>
@@ -48,8 +47,8 @@
         </div>
     <div>
         <p>What is yuor purpose of studying?</p>
-        <input type="checkbox" id="checkbox" value="checkbox-1">
-        <label class="inline" for="checkbox" >Increasing awareness</label>
+        <input type="checkbox" id="first" value="checkbox-1">
+        <label class="inline" for="first" >Increasing awareness</label>
 
         <input type="checkbox" id="checkbox" value="checkbox-2">
         <label class="inline" for="checkbox" >Entertainment</label>
@@ -79,6 +78,7 @@
             </div>
             <div class="footer-Bottom">
                 <p> <i class='bx bxs-edit-alt'></i>  Designed by <span class=designer>Yusra Khairandish</span></p>
+            </div>
             </div>
         </footer>
     </body>
